@@ -1,0 +1,7 @@
+#ifndef PACKETDEFINITIONS_HPP
+#define PACKETDEFINITIONS_HPP
+
+class PacketDefinitions {
+
+};
+#endif // PACKETDEFINITIONS_HPP

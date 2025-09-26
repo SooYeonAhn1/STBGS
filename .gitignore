@@ -1,0 +1,148 @@
+# ===============================================
+# 1. BUILD ARTIFACTS (C++, CMake, Make, and Binaries)
+# ===============================================
+
+# Generated directories (root and nested)
+[Bb]uild/
+[Bb]in/
+[Oo]ut/
+*/[Bb]uild/
+*/[Bb]in/
+*/[Oo]ut/
+
+# Intermediate and final binaries
+*.o
+*.obj
+*.lo
+*.la
+*.d
+*.so
+*.a
+*.dll
+*.lib
+*.exe
+*.out
+*.elf
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+_CPack_Packages/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+DartConfiguration.tcl
+compile_commands.json
+
+# Build systems / IDE project files
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.filters
+*.vcproj
+*.code-workspace
+
+# ===============================================
+# 2. LOGS, TEMP, CACHE, AND COVERAGE
+# ===============================================
+
+# Logs and temporary files
+*.log
+[Ll]ogs/
+*.tmp
+*.temp
+*~
+*.bak
+*.sw?
+
+# Coverage / profiling / static analysis
+*.gcno
+*.gcda
+*.gcov
+lcov.info
+coverage.*
+*.profdata
+*.profraw
+*.sancov
+
+# Crash dumps and caches
+*.dmp
+*.stackdump
+.ccache/
+.cache/
+.conan/
+
+# ===============================================
+# 3. ENVIRONMENT & SENSITIVE DATA
+# ===============================================
+
+# Environment configuration
+.env
+.env.*
+config.local.*
+settings.json
+
+# Security / Keys
+*.pem
+*.key
+*.p12
+*.crt
+*.der
+*.csr
+
+# Database files
+*.sqlite
+*.db
+
+# ===============================================
+# 4. DEPENDENCIES AND PACKAGES
+# ===============================================
+
+# Dependency manager output
+vcpkg_installed/
+conanbuildinfo.txt
+conaninfo.txt
+
+# Python Virtual Environments (if using Python tooling)
+[Ee]nv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Node (if using Node-based tooling/UI)
+node_modules/
+npm-debug.log*
+
+# ===============================================
+# 5. OS AND EDITOR FILES
+# ===============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editor configs
+.vscode/
+.idea/
+.vs/
+*.iml
+*.ipr
+*.iws
+
+# Misc
+tags
+cscope.*
+
+STBGS
