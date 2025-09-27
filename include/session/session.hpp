@@ -7,6 +7,8 @@
 #include "../game/GameManager.hpp"
 #include "../database/DatabaseManager.hpp"
 
+using namespace DB;
+
 class Session {
 public:
     Session(boost::asio::io_context& io_context,
