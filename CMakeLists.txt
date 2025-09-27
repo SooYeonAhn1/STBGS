@@ -3,6 +3,9 @@ project(STBGS VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(STBGS src/main.cpp)
 
+target_include_directories(STBGS PRIVATE /include/)
+include_directories(/include/)
+
 include(CTest)
 enable_testing()
 
