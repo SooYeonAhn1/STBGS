@@ -5,7 +5,6 @@
 #include <vector>
 #include <thread>
 
-// Use a namespace for clarity
 using namespace Config;
 using namespace boost::asio;
 using namespace boost::asio::ip;
